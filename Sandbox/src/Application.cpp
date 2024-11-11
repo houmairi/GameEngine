@@ -1,12 +1,12 @@
-namespace GameEngine {
+#include "Engine.h"
 
-	__declspec(dllimport) void Print();
+int main() {
+    GameEngine::Engine engine;
 
-}
+    if (engine.Initialize()) {
+        engine.Update();
+        engine.Shutdown();
+    }
 
-
-
-void main()
-{
-	GameEngine::Print();
+    return 0;
 }

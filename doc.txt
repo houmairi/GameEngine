@@ -1,0 +1,16 @@
+11.11.2024
+
+First Setup:
+- Created GitHub repo "GameEngine"
+- Made 2 projects: GameEngine (DLL) & Sandbox (EXE)
+- Set custom output/intermediate directories
+- Created basic DLL link test with Print() function
+
+Improvements:
+- Added proper Engine class
+- Setup project linking:
+  - Include directories
+  - Library directories
+  - Added GameEngine.lib dependency
+  - Setup DLL export/import macros
+  - Added post-build DLL copy
