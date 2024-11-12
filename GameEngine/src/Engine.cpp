@@ -1,17 +1,18 @@
 #include "Engine.h"
-#include <stdio.h>
 
 namespace GameEngine {
     bool Engine::Initialize() {
-        printf("Engine Initialized!\n");
+        Log::Init();
+        GE_INFO("Engine Initialized!");
         return true;
     }
 
     void Engine::Update() {
-        printf("Engine Update\n");
+        GE_TRACE("Engine Update");
     }
 
     void Engine::Shutdown() {
-        printf("Engine Shutdown\n");
+        GE_INFO("Engine Shutdown");
+        Log::Shutdown();
     }
 }

@@ -1,4 +1,5 @@
 #pragma once
+#include "Log/Log.h"
 
 #ifdef GAMEENGINE_EXPORTS
 #define GAMEENGINE_API __declspec(dllexport)

@@ -1,1 +1,4 @@
 C:\Users\Niko\Documents\Repositorys\GameEngine\GameEngine\src\Engine.cpp;C:\Users\Niko\Documents\Repositorys\GameEngine\bin-int\Debug-x64\GameEngine\Engine.obj
+C:\Users\Niko\Documents\Repositorys\GameEngine\GameEngine\src\Log\ConsoleLogger.cpp;C:\Users\Niko\Documents\Repositorys\GameEngine\bin-int\Debug-x64\GameEngine\ConsoleLogger.obj
+C:\Users\Niko\Documents\Repositorys\GameEngine\GameEngine\src\Log\Log.cpp;C:\Users\Niko\Documents\Repositorys\GameEngine\bin-int\Debug-x64\GameEngine\Log.obj
+C:\Users\Niko\Documents\Repositorys\GameEngine\GameEngine\src\Log\LoggerStorage.h;C:\Users\Niko\Documents\Repositorys\GameEngine\bin-int\Debug-x64\GameEngine\LoggerStorage.obj
